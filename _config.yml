@@ -1,9 +1,9 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+title: Pritpal Singh Badewal
+email:
+url: https://psbadewal.github.io
+description: "Simply put, I love to build and co-create web apps. I have experience in building full stack, responsive and mobile-friendly web apps in JavaScript | Node.js | AngularJS | Ruby and Ruby on Rails."
+skills: "Junior Web Developer | German Speaker | Former Wannabe Politician"
 meta_author: LastName FirstName
 
 # Google webmaster tools
