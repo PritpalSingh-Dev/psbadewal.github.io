@@ -4,9 +4,9 @@ modal-id: 1
 date: 2014-07-18
 img: project1.png
 alt: image-alt
-project-date: October 2015
+project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: description: Enter any capital, country and currency based on a randomly generated letter in 30 seconds. Tech: JavaScript, jQuery, Animate.css URL:  <a href="https://capitalcountrycurrency.herokuapp.com">Play</a>
+description: Enter any capital, country and currency based on a randomly generated letter in 30 seconds. Tech: JavaScript, jQuery, Animate.css URL:  <a href="https://capitalcountrycurrency.herokuapp.com">Play</a>
 
 ---
