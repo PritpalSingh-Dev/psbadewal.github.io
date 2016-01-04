@@ -1,12 +1,12 @@
 ---
 layout: default
-modal-id: 1
+modal-id: Capital Country Currency
 date: 2014-07-18
 img: project1.png
 alt: image-alt
-project-date: April 2014
+project-date: October 2015
 client: Start Bootstrap
 category: Web Development
-description: Test!
+description: description: Enter any capital, country and currency based on a randomly generated letter in 30 seconds. Tech: JavaScript, jQuery, Animate.css URL:  <a href="https://capitalcountrycurrency.herokuapp.com">Play</a>
 
 ---
