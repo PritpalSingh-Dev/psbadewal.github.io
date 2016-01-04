@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: Capital Country Currency
+modal-id: 1
 date: 2014-07-18
 img: project1.png
 alt: image-alt
