@@ -40,8 +40,9 @@ $theme-dark: #222;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "mixins",
-        "base";
+        "base"
+;
 
 .portfolio-box {
-  max-height: 500px;
+    height: 500px;
 }
