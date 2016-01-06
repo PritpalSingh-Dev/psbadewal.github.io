@@ -45,6 +45,12 @@ $theme-dark: #222;
 
 .portfolio-box {
     height: 275px;
+    position: relative;
+        display: block;
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border: 2px solid #2D7D9C;
 }
 
 img {
@@ -54,9 +60,11 @@ img {
 
 .titleBox {
       background: #2D7D9C;
-      border: 5px solid #2D7D9C;
-      border-radius: 1%;
-      height: 50px;
-      border-top-right-radius: 1em;
-      border-top-left-radius: 1em;
+          border: 5px solid #2D7D9C;
+          border-radius: 1%;
+          height: 50px;
+          border-top-right-radius: 1em;
+          border-top-left-radius: 1em;
+          width: 400px;
+          margin: 0 auto;
 }
