@@ -43,15 +43,15 @@ $theme-dark: #222;
         "base"
 ;
 
-@media (min-width: 768px)
-.navbar-default.affix .navbar-header .navbar-brand {
-    color: #3FBFBF;
-  }
+// @media (min-width: 768px)
+// .navbar-default.affix .navbar-header .navbar-brand {
+//     color: #3FBFBF;
+//   }
 
-  .navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus {
-      color: #3FBFBF !important;
-      background-color: transparent;
-  }
+//   .navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus {
+//       color: #3FBFBF !important;
+//       background-color: transparent;
+//   }
 
   
 .portfolio-box {
