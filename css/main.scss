@@ -50,7 +50,22 @@ $theme-dark: #222;
         width: 400px;
         margin: 0 auto;
         margin-bottom: 20px;
-        border: 2px solid #2D7D9C;
+        border: 2px solid #3FBFBF;
+}
+
+.portfolio-box .portfolio-box-caption {
+    color: white;
+    opacity: 0;
+    display: block;
+    background: rgba(63, 191, 191, 0.95);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
 }
 
 img {
@@ -59,8 +74,8 @@ img {
 }
 
 .titleBox {
-      background: #2D7D9C;
-          border: 5px solid #2D7D9C;
+      background: #3FBFBF;
+          border: 5px solid #3FBFBF;
           border-radius: 1%;
           height: 50px;
           border-top-right-radius: 1em;
