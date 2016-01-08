@@ -136,8 +136,26 @@ img {
     border-color: #3FBFBF;
 }
 
-
 hr {
   border-color: #3FBFBF;
 }
 
+a {
+  color: #3FBFBF
+}
+
+a:hover {
+  color: #3FBFBF
+}
+
+.fa-twitter:before {
+  color: #3FBFBF
+}
+
+.fa-github:before {
+  color: #3FBFBF
+}
+
+.navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
+  color: #3FBFBF;
+}
