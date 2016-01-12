@@ -43,22 +43,11 @@ $theme-dark: #222;
         "base"
 ;
 
-// @media (min-width: 768px)
-// .navbar-default.affix .navbar-header .navbar-brand {
-//     color: #3FBFBF;
-//   }
-
-//   .navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus {
-//       color: #3FBFBF !important;
-//       background-color: transparent;
-//   }
-
-
 .portfolio-box {
     height: 275px;
     position: relative;
         display: block;
-        width: 375px;
+        width: 95%;
         margin: 0 auto;
         margin-bottom: 20px;
         border: 2px solid #3FBFBF;
@@ -91,7 +80,7 @@ img {
           height: 50px;
           border-top-right-radius: 1em;
           border-top-left-radius: 1em;
-          width: 375px;
+          width: 95%;
           margin: 0 auto;
 }
 
@@ -113,9 +102,21 @@ img {
   padding: 40px;
 }
 
+header {
+  background-size: 25%;
+      background-position: 90%;
+      background-repeat: no-repeat;
+      color: #3E5B6D;
+}
+
+header .header-content .header-content-inner h1 {
+  margin-top: 10%;
+}
+
 .h2 {
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .h3 {
@@ -123,17 +124,17 @@ img {
 }
 
 .bg-primary {
-  background: #3FBFBF;
+  background: #3E5B6D;
 }
 
 .btn-primary {
-  background: #3FBFBF;
+  background: #3E5B6D;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle .btn-primary {
     color: white;
-    background-color: #3FBFBF;
-    border-color: #3FBFBF;
+    background-color: #3E5B6D;
+    border-color: #3E5B6D;
 }
 
 hr {
@@ -141,7 +142,7 @@ hr {
 }
 
 a {
-  color: #3FBFBF
+  color: white;
 }
 
 a:hover {
@@ -156,6 +157,49 @@ a:hover {
   color: #3FBFBF
 }
 
+.fa-linkedin:before {
+  color: #3FBFBF
+}
+
 .navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
   color: #3FBFBF;
+}
+
+section#contact {
+  background: #3E5B6D;
+  color: white;
+}
+
+.messageBox {
+    height: 50%;
+    width: 100%;
+    border: 1px solid #3FBFBF;
+    padding: 5%;
+    background: #3E5B6D;
+    box-shadow: none;
+}
+
+.sendMessage {
+    background: #3FBFBF;
+    border: 1px solid #3FBFBF;
+    border-radius: 5%;
+    margin-top: 2.5%;
+    font: inherit;
+    padding: 2.5%;
+    width: 100px;
+}
+
+.emailBox {
+    width: 100%;
+    border: 1px solid #3FBFBF;
+    padding: 5%;
+    background: #3E5B6D;
+}
+
+img.services {
+    width: 50%;
+}
+
+h3.servicesText {
+    margin-top: -25px;
 }
