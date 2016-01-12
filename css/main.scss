@@ -90,6 +90,19 @@ img {
   margin-top: 10px;
 }
 
+.navbar-default .navbar-header .navbar-brand {
+  color: #3FBFBF;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}    
+@media (min-width: 768px) {
+  .navbar-default .navbar-header .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+
 .navbar-default.affix .navbar-header .navbar-brand {
     color: #3FBFBF;
 }
@@ -98,13 +111,18 @@ img {
     color: #3FBFBF !important;
 }
 
+.navbar-default.affix .nav > li > a:hover {
+  color: #3FBFBF;
+}
+
 .no-padding {
   padding: 40px;
+  padding-bottom: 80px;
 }
 
 header {
   background-size: 25%;
-      background-position: 90%;
+      background-position: 96%;
       background-repeat: no-repeat;
       color: #3E5B6D;
 }
@@ -202,4 +220,25 @@ img.services {
 
 h3.servicesText {
     margin-top: -25px;
+    color: white;
+}
+
+#services {
+  background: #3FBFBF;
+}
+
+.serviceHead {
+  color:white;
+}
+
+hr.primary.secondary {
+  border-color: white;
+}
+
+.servicesRow {
+  margin-top: -40px;
+}
+
+.service-box p {
+    color: white;
 }
