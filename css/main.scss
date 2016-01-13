@@ -43,6 +43,10 @@ $theme-dark: #222;
         "base"
 ;
 
+span {
+  font-size: 40px;
+}
+
 .portfolio-box {
     height: 275px;
     position: relative;
@@ -89,6 +93,14 @@ img {
   color: white;
   margin-top: 10px;
 }
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+  margin-top: 7%;
+}
+
+  img.img-responsive.tgbca {
+      margin-top: 2%;
+  }
 
 .navbar-default .navbar-header .navbar-brand {
   color: #3FBFBF;
@@ -216,6 +228,7 @@ section#contact {
 
 img.services {
     width: 50%;
+    margin-bottom: 10px;
 }
 
 h3.servicesText {
