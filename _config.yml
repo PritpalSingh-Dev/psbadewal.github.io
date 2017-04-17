@@ -1,11 +1,11 @@
 # Site settings
-title: Pritpal Singh Badewal
+title: Pritpal Singh
 email:
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username: psbadewal
+twitter_username: pritpal_tweets
 github_username: psbadewal
 linkedin_username: psbadewal
 
